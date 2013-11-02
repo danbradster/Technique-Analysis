@@ -4,22 +4,20 @@
 	id		= "com.alunny.amazing"
 	version 	= "1.0.0">
 
-	<name>alunnys Amazing App</name>
+	<name>danbradster's Technique Analysis</name>
 
 	<description>
-		An Amazing app by alunny
+		Compare yourself or an athlete with a professional to see where they can improve.
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://www.sportsscience.co/"
+		email="danielbrady_89@hotmail.com">
+		Daniel Brady
 	</author>
 
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
-		<gap:platform name="webos" />
-		<gap:platform name="symbian.wrt" />
-		<gap:platform name="blackberry" project="widgets"/>
+		<gap:platform name="ios" />
 	</gap:platforms>
 
 	<icon src="blurry.png" gap:role="default" />
