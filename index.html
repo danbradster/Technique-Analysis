@@ -7,12 +7,9 @@
 		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
 
 		<script type="text/javascript">
-		document.addEventListener("deviceready", onDeviceReady, false);
-		// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
-		function onDeviceReady() {
-			// Now safe to use the PhoneGap API
-			alert('deviceready');
-		}
+		alert('deviceready');
+		var phoneName = window.device.name;
+		alert(phoneName);
 		</script>
 	</head>
 	<body>
