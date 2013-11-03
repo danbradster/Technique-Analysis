@@ -3,18 +3,15 @@
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.alunny.amazing"
 	version 	= "1.0.0">
-
-	<name>danbradster's Technique Analysis</name>
-
+	<name>Technique Analysis</name>
 	<description>
 		Compare yourself or an athlete with a professional to see where they can improve.
 	</description>
-
 	<author href="http://www.sportsscience.co/"
 		email="danielbrady_89@hotmail.com">
 		Daniel Brady
 	</author>
-
+	
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
 		<gap:platform name="ios" />
