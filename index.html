@@ -5,7 +5,15 @@
 		<title>Training App</title>
 		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
 		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-		<script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+		document.addEventListener("deviceready", onDeviceReady, false);
+		// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+		function onDeviceReady() {
+			// Now safe to use the PhoneGap API
+			alert('deviceready');
+		}
+		</script>
 	</head>
 	<body>
  		<div id="title_bar"><b>Technique Analysis</b> by SportsScience.co</div>
